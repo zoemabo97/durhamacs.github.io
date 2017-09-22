@@ -8,14 +8,21 @@
 */
 
 /* Reset */
+.carousel .item {
+ width: 100%;
+}
+.carousel .item img {
+ width: 100%;
+}
+
 .navbar-nav > li > a {
   padding-top:4px;
   padding-bottom:5px;
 }
 
 .navbar {
-  padding-top: 4px;
-  min-height:32px !important;
+  padding-top: 2px;
+  min-height:34px !important;
   background-color: #000000;
 }
 
@@ -30,7 +37,7 @@
 
 .social-media-padding2 {
   padding-right: 0px; 
-  padding-left: 1050px; 
+  /* padding-left: 1050px; */ 
 }
 
  .menu-half {
@@ -229,6 +236,14 @@ h2,p {
 		.container {
 			width: 95% !important;
 		}
+    #top_main_nav {
+      display: none;
+    }
+
+    #main_image {
+      margin-bottom: 20px;
+    }
+
 
 	}
 
@@ -2517,11 +2532,23 @@ h2,p {
 
 /* Banner */
 
+    #carousel_1 {
+      background-image: url("/Users/zoemabo/Desktop/acspic2.jpg");
+      background-size: contain;
+      position: relative;
+			width: 100%;
+    }
+
+    #carousel_2 {
+      background-image: url("/Users/zoemabo/Desktop/acspic3.jpg");
+      background-size: contain;
+      position: relative;
+			width: 100%;
+    }
+
 	#banner {
-		background-image: url("/Users/zoemabo/Desktop/acspic.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 10em;
 		text-align: center;
 		position: relative;
 	}
