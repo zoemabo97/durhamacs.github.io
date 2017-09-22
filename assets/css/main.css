@@ -41,7 +41,7 @@ ul {
   list-style-type: none;
 }
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -49,6 +49,17 @@ ul {
 		font: inherit;
 		vertical-align: baseline;
 	}
+  
+
+h2,p {
+		margin-left: 20px;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+
+}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -316,7 +327,13 @@ ul {
 		padding: 0px 0 0 0px;
 	}
 
-	.row.uniform.\30 \25 {
+	.row.uniform.\30 \25 {		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+
 		margin: 0px 0 -1px 0px;
 	}
 
@@ -1864,15 +1881,15 @@ ul {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 0em 0;
-	}
+	/* p, ul, ol, dl, table, blockquote { */
+	/* 	margin: 0 0 0em 0; */
+	/* } */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 600;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: 0.7em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1925,7 +1942,7 @@ ul {
 
 	header p {
 		color: #999;
-		font-size: 1.25em;
+		font-size: 0.9em;
 		position: relative;
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
@@ -1978,7 +1995,7 @@ ul {
 		transition: border-color 0.2s ease-in-out;
 		background: #fff;
 		border: solid 1px #e0e0e0;
-		border-radius: 5px;
+		border-radius: 0px;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3175,3 +3192,57 @@ ul {
 				text-align: left;
 			}
 	}
+
+  #contact {width:100%; height:100%; margin 0 auto; background: #ffffff; }
+
+.contact-container {width:960px; height:auto; margin: 0 auto; padding: 0px 0;}
+
+#contact .contact-container form input,
+#contact .contact-container form textarea {
+	width:100%;
+	height:40px;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background: #FFF;
+	border:1px solid #cccccc;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .contact-container form input:focus,
+#contact .container form textarea:focus {
+	border:1px solid #8B0000;
+}
+
+#contact .contact-container form textarea {
+	height:150px;}
+
+#contact .contact-container form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#8B0000;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #8B0000;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .contact-container form .submit:hover {
+	color:#FFF;
+	border:2px solid #992600;
+	background: #992600;
+	cursor:pointer;}
+
+#contact .contact-container form .required {
+	color:#992600;

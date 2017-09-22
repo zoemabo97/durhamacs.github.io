@@ -75,8 +75,8 @@
               </ul>
             </li>
             <li><a href="events.html">Events</a></li>
-            <li class="current"><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="current"><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </nav>
 
@@ -87,7 +87,42 @@
           <div class="row 200%">
             <div id="content">
 
-            
+              <!-- Content -->
+
+              <article>
+                <header>
+                  <h2>Get in Touch</h2>
+                  <p>Want to be part of our community? Got any Questions? leave us a message!</p>
+                </header>
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact">
+
+        <div class="contact-container">
+
+          <form name="htmlform" method="post" action="toyousender.php">
+
+            <input type="text" name="first_name" placeholder="NAME" required>
+
+            <input  type="email" name="email" placeholder="E-MAIL" required>
+
+            <input  type="subject" name="subject" placeholder="SUBJECT" required>
+
+            <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+
+            <button name="send" type="submit" class="submit">SEND</button>
+
+          </form>
+
+        </div>
+      </section>
+
+      <script  src="js/index.js"></script>
 
 
 
@@ -104,4 +139,3 @@
 
   </body>
 </html>
-
