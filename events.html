@@ -2,13 +2,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="stylesheet" type="text/css" href="assets/css/scheduler.css"/>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link href='assets/css/fullcalendar.min.css' rel='stylesheet' />
-    <script src='assets/js/moment.min.js'></script>
-    <script src='assets/js/jquery.min.js'></script>
-    <script src='assets/js/fullcalendar.min.js'></script>
-    <script src='assets/js/scheduler.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.css' rel='stylesheet' />
 
   </head>
   <body>
@@ -121,15 +118,36 @@
       </section>
 
 
-      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=1phc1e6lmp0eslt2g2o3pn8iek%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FAmsterdam" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+      <!--   showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=1phc1e6lmp0eslt2g2o3pn8iek%40group.calendar.google.com -->
+      <!--   &amp;color=%23B1440E&amp;ctz=Europe%2FAmsterdam" style="border-width:0" width="800" height="600" frameborder="0" --> 
+      <!--   scrolling="no"></iframe> -->
+    <!-- </div> -->
+
+      <div id="calendar">
+      </div>
 
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- Scripts -->
+  <script src='assets/js/moment.min.js'></script>
+  <script src='assets/js/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.js'></script>
+  <script src='assets/js/scheduler.js'></script>
+  <script src='assets/js/gcal.min.js'></script>
+  <script src="assets/js/jquery.dropotron.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+      <script type='text/javascript'>
+
+        $(document).ready(function() {
+          $('#calendar').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyCEmDl3ZciAzpbmX9x5fkjdZXuzyN0eX1U',
+            events: {
+              googleCalendarId: '1phc1e6lmp0eslt2g2o3pn8iek@group.calendar.google.com'
+            }
+          });
+        });
+
+      </script>
+</body>
 </html>
