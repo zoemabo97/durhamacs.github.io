@@ -123,8 +123,14 @@
       <!--   scrolling="no"></iframe> -->
     <!-- </div> -->
 
-      <div id="calendar">
+  <div class="container" style="margin-left: 40px">
+    <div class="row 200%">
+      <div class="8u 12u(narrower)">
+        <div id="calendar">
+        </div>
       </div>
+    </div>
+  </div>
 
 
   <!-- Scripts -->
@@ -137,17 +143,17 @@
   <script src="assets/js/skel.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-      <script type='text/javascript'>
+  <script type='text/javascript'>
 
-        $(document).ready(function() {
-          $('#calendar').fullCalendar({
-            googleCalendarApiKey: 'AIzaSyCEmDl3ZciAzpbmX9x5fkjdZXuzyN0eX1U',
-            events: {
-              googleCalendarId: '1phc1e6lmp0eslt2g2o3pn8iek@group.calendar.google.com'
-            }
-          });
-        });
+    $(document).ready(function() {
+      $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyCEmDl3ZciAzpbmX9x5fkjdZXuzyN0eX1U',
+        events: {
+          googleCalendarId: '1phc1e6lmp0eslt2g2o3pn8iek@group.calendar.google.com'
+        }
+      });
+    });
 
-      </script>
+  </script>
 </body>
 </html>
