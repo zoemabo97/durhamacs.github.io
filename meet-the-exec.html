@@ -8,11 +8,11 @@
 
   </head>
 
-  <body>
+<body>
     <div id="page-wrapper">
-      <nav class="navbar navbar-static-top navbar-inverse hidden-sm">    
+      <nav class="navbar navbar-static-top navbar-inverse" id="top_main_nav">    
         <div class="container">
-          <ul class="nav navbar-nav text-center">
+          <ul class="nav navbar-nav" style="position: absolute; width: 400px; margin-right: 0px">
             <li class="nav-item menu-half">
               <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="mailto:acs.soc@durham.ac.uk">  
                 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -20,14 +20,20 @@
               </a>
             </li>
             <li class="nav-item menu-half">
-              <a class="nav-link social-media-padding" style="font-size: 13px; font-weight: 200" href="#">
+              <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="#">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 locate us  
               </a> 
             </li>
-            <!-- </ul> -->
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="https://www.durhamsu.com/groups/african-and-caribbean-society">  
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                become a member 
+              </a>
+            </li>
+          </ul>
 
-          <!-- <ul class="nav navbar-nav text-center hidden-sm"> -->
+          <ul class="nav navbar-nav" style="width: 200px; float: right; text-align: right">
             <li class="nav-item menu-half">
               <a class="nav-link social-media-padding2" href="https://www.facebook.com/groups/1832868840268459/">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -57,21 +63,21 @@
 
       <div class="container">
         <center>
-          <img src="/Users/zoemabo/Desktop/acslogo.jpg" style="margin-top:30px" width="190" height="170"> 
+          <img src="/Users/zoemabo/Desktop/acslogo.jpg" id="main_image" style="width: 190px; margin-top:30px" width="190" height="170"> 
         </center>
       </div>
       <div id="header">
         <h1><a href="index.html" id="logo">Durham African &amp; Carribean Society </a></h1>
-
-        <!-- Nav -->
+       
         <nav id="nav">
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
             <li class="current">
               <a href="#">Who are we?</a>
               <ul>
-                <li><a href="#">Meet the Exec</a></li>
-                <li><a href="#">Our Sponsors</a></li>
+                <li><a href="meet-the-exec.html">Meet the Exec</a></li>
+                <li><a href="our-sponsors.html">Our Sponsors</a></li>
               </ul>
             </li>
             <li><a href="events.html">Events</a></li>
@@ -79,29 +85,57 @@
             <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </nav>
-
       </div>
-      <!-- Main -->
+
+
+        <!-- Main -->
       <section class="wrapper style1">
         <div class="container">
           <div class="row 200%">
             <div id="content">
 
-            
+              <section class="wrapper style1">
+                <div class="container">
+                  <div class="row 200%">
+                    <div class="8u 12u(narrower)">
+                      <div id="content">
+
+                        <!-- Content -->
+
+                        <article>
+                          <header>
+                            <h2>Our Committee</h2>
+                            <p>Get to know the 2016 to 2017 executive committee of our ACS. </p>
+                          </header>
+                        </article>
+
+                      </div>
+                    </div>
+
+                    <div class="4u 12u(narrower)">
+                      <div id="sidebar">
+                        <section>
+                          <h3>Upcoming Events</h3>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
 
 
 
-    </div>
 
+            <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.dropotron.min.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="assets/js/main.js"></script>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
-
-  </body>
-</html>
+          </body>
+        </html>
 
