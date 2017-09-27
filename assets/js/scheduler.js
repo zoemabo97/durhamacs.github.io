@@ -6647,4 +6647,7 @@ detectWarningInContainer = function(containerEl) {
   return containerEl.find('.fc-license-message').length >= 1;
 };
 
+$('#calendar').fullCalendar({
+	schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source'
+});
 });

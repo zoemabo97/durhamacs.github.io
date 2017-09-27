@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.5;
-    color: #323232;
-    font-size: 15px;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-}
+/* body { */
+/*     font-family: 'Source Sans Pro', sans-serif; */
+/*     line-height: 1.5; */
+/*     color: #323232; */
+/*     font-size: 15px; */
+/*     font-weight: 400; */
+/*     text-rendering: optimizeLegibility; */
+/*     -webkit-font-smoothing: antialiased; */
+/*     -moz-font-smoothing: antialiased; */
+/* } */
 .heading-title {
     margin-bottom: 100px;
 }
@@ -22,7 +22,7 @@ body {
     font-weight: normal;
 }
 .p-top-30 {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 .half-txt {
     width: 60%;
@@ -108,7 +108,7 @@ body {
 }
 .team-title {
     position: static;
-    padding: 20px 0;
+    padding: 10px 0;
     display: inline-block;
     letter-spacing: 2px;
     width: 100%;
@@ -123,4 +123,9 @@ body {
     text-transform: uppercase;
     color: #a5a5a5;
     letter-spacing: 1px;
+}
+
+#meet_the_exec .container{
+width: 100%;
+align: center;
 }
