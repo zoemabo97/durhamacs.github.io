@@ -2658,6 +2658,14 @@ h2,p {
 			margin-left: 1em;
 		}
 
+
+.boxed {
+  border-bottom: 2px #8B0000;
+  border-style: thick;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* Footer */
 
 	#footer {
