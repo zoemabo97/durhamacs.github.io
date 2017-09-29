@@ -3,68 +3,68 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/scheduler.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/scheduler.min.css"/>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.css' rel='stylesheet' />
 
   </head>
- <body>
-
-
+  <body>
     <div id="page-wrapper">
-      <div style="height: 30px; background-color: black; padding-left: 10px; padding-right: 20px; padding-top: 2px; padding-bottom: 2px; text-align: center" class="navbar navbar-static-top navbar-inverse" id="top_main_nav">
-        <ul style="padding-left: 50px; display: inline-block; float: left; list-style-type: none">
-          <li style="display: inline-block; "> 
-            <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200; vertical-align: middle" href="mailto:acs.soc@durham.ac.uk">  
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              acs.soc@durham.ac.uk
-            </a>
-          </li>
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200; vertical-align: middle" href="https://www.google.co.uk/maps/place/Durham+Students'+Union/@54.7732266,-1.5738356,17z/data=!3m1!4b1!4m5!3m4!1s0x487e87626481748d:0x3a5d3218efbacb98!8m2!3d54.7732235!4d-1.5716469">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              locate us  
-            </a> 
-          </li>
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200; vertical-align: middle" href="https://www.durhamsu.com/groups/african-and-caribbean-society">  
-              <i class="fa fa-user-plus" aria-hidden="true"></i>
-              become a member 
-            </a>
-          </li>
-        </ul>
-        <ul style="display: inline-block; text-align: center; list-style-type: none" >
-          <!-- <li style="display: inline-block">Bar</li> -->
-        </ul>
+      <nav class="navbar navbar-static-top navbar-inverse" id="top_main_nav">    
+        <div class="container">
+          <ul class="nav navbar-nav" style="position: absolute; width: 400px; margin-right: 0px">
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="mailto:acs.soc@durham.ac.uk">  
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                acs.soc@durham.ac.uk
+              </a>
+            </li>
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="#">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                locate us  
+              </a> 
+            </li>
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" style="font-size: 12px; font-weight: 200" href="https://www.durhamsu.com/groups/african-and-caribbean-society">  
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                become a member 
+              </a>
+            </li>
+          </ul>
 
-        <ul style="padding-right: 50px; display: inline-block; float: right; text-align: right; list-style-type: none; ">
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding2" style="vertical-align: middle" href="https://www.facebook.com/groups/1832868840268459/">
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </a> 
-          </li>
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding"  style="vertical-align: middle" href="https://twitter.com/Durhamacs/">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </a>  
-          </li>
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding"  style="vertical-align: middle" href="https://www.youtube.com/channel/UCi0-ED_qnSDULONP1Sw-76Q?view_as=subscriber/">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </a> 
-          </li>
-          <li style="display: inline-block; ">
-            <a class="nav-link social-media-padding"  style="vertical-align: middle" href="https://www.instagram.com/durhamacs/">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a> 
-          </li>
-        </ul>
+          <ul class="nav navbar-nav" style="width: 200px; float: right; text-align: right">
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding2" href="https://www.facebook.com/groups/1832868840268459/">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a> 
+            </li>
+
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" href="https://twitter.com/Durhamacs/">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a> 
+            </li>
+
+            <li class="nav-item menu-half">
+              <a class="nav-link social-media-padding" href="https://www.youtube.com/channel/UCi0-ED_qnSDULONP1Sw-76Q?view_as=subscriber/">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </a> 
+            </li>
+
+            <li class="nav-item menu-half" style="margin-right: 15px">
+              <a class="nav-link social-media-padding"href="https://www.instagram.com/durhamacs/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a> 
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <div class="container" style="margin-left: auto;">
-        <div align="center">
-          <img src="assets/images/acslogo.jpg" id="main_image" style="width: 190px; margin-top:30px; margin-left: auto; margin-right: auto; display: block" width="190" height="170"> 
-        </div>
+      <div class="container">
+        <center>
+          <img src="/Users/zoemabo/Desktop/acslogo.jpg" id="main_image" style="width: 190px; margin-top:30px" width="190" height="170"> 
+        </center>
       </div>
       <div id="header">
         <h1><a href="index.html" id="logo">Durham African &amp; Carribean Society </a></h1>
@@ -77,32 +77,19 @@
             <li>
               <a href="#">Who are we?</a>
               <ul>
-                <li><a href="meet-the-exec.html">Meet the Exec</a></li>
-                <li><a href="our-sponsors.html">Our Sponsors</a></li>
+                <li><a href="#">Meet the Exec</a></li>
+                <li><a href="#">Our Sponsors</a></li>
               </ul>
             </li>
             <li class="current"><a href="events.html">Events</a></li>
-            <li><a href="dacs-showcase.html">DACS Showcase</a></li>
-            <li>
-              <a href="#">DACS Groups</a>
-              <ul>
-                <li><a href="dacs-cuisine.html">DACS Cuisine</a></li>
-                <li><a href="dacs-dance.html">DACS Dance</a></li>
-                <li><a href="dacs-fellowship.html">DACS Fellowship</a></li>
-                <li><a href="dacs-fitness.html">DACS Fitness</a></li>
-              </ul>
-            </li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li ><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </nav>
-
       </div>
-
-  
-  <!-- Main -->
+      <!-- Main -->
       <section class="wrapper style1">
-        <div class="container" style"margin-left: auto; margin-right: auto">
+        <div class="container">
           <div class="row 200%">
             <div class="8u 12u(narrower)">
               <div id="content">
@@ -136,7 +123,7 @@
       <!--   scrolling="no"></iframe> -->
     <!-- </div> -->
 
-  <div class="container" style"margin-left: auto; margin-right: auto">
+  <div class="container" style="margin-left: 40px">
     <div class="row 200%">
       <div class="8u 12u(narrower)">
         <div id="calendar">
@@ -145,11 +132,7 @@
     </div>
   </div>
 
-  <div id="footer">
-              <div class="container">
-                <div class="row">
-                </div>
-              </div>
+
   <!-- Scripts -->
   <script src='assets/js/moment.min.js'></script>
   <script src='assets/js/jquery.min.js'></script>
@@ -164,7 +147,7 @@
 
     $(document).ready(function() {
       $('#calendar').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyDKSm4zDyPe0v0PfLkDMd6kok592qzL3Tg',
+        googleCalendarApiKey: 'AIzaSyDPxfqpiJbk_zPU2BiI8CzX-pnA-K3crks',
         events: {
           googleCalendarId: 'o3uk4gd4tg1anoa060qvjc2coo@group.calendar.google.com'
         }
