@@ -1896,16 +1896,16 @@ a {
 }
 
 a:hover {
-  color: #e6b800;
+  color: #cca300;
   border-bottom-color: transparent;
 }
 
 #star_quotes a:hover {
-  color: #8B0000
+  color: #cc9900
 }
 
 #star_quotes .star {
-  color: #8B0000
+  color: #cc9900
 }
 
 strong, b {
@@ -2043,7 +2043,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: #8B0000;
+  border-color: #cc9900;
 }
 
 input[type="text"],
@@ -2152,7 +2152,7 @@ label {
 .icon.major {
   text-align: center;
   cursor: default;
-  background-color: #8B0000;
+  background-color: #cc9900;
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2304,7 +2304,7 @@ input[type="button"],
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  background-color: #8B0000;
+  background-color: #cc9900;
   border-radius: 5px;
   border: 0;
   color: #fff;
@@ -2323,7 +2323,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  background-color: #8B0000;
+  background-color: #cc9900;
   color: #fff !important;
 }
 
@@ -2331,7 +2331,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-  background-color: #8B0000;
+  background-color: #cc9900;
   color: #fff;
 }
 
@@ -2445,7 +2445,7 @@ input[type="button"].small,
   display: block;
   width: 100%;
   height: 0.7em;
-  background-color: #8B0000;
+  background-color: #cc9900;
   background-image: url("images/bg01.png");
 }
 
@@ -2492,7 +2492,7 @@ input[type="button"].small,
   bottom: -0.5em;
   left: 50%;
   margin-left: -0.375em;
-  background-color: #8B0000;
+  background-color: #cc9900;
   background-image: url("images/bg01.png");
 }
 
@@ -2627,7 +2627,7 @@ input[type="button"].small,
 }
 
 .wrapper.style3 {
-  background-color: #8B0000;
+  background-color: #cc9900;
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2641,7 +2641,7 @@ input[type="button"].small,
 }
 
 .wrapper.style3 .button:hover {
-  color: #8B0000 !important;
+  color: #cc9900 !important;
 }
 
 /* CTA */
@@ -2664,7 +2664,7 @@ input[type="button"].small,
 
 
 .boxed {
-  border-bottom: 2px #8B0000;
+  border-bottom: 2px #cc9900;
   border-style: thick;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2684,7 +2684,7 @@ input[type="button"].small,
 }
 
 #footer a:hover {
-  color: #8B0000;
+  color: #cc9900;
   border-bottom-color: transparent;
 }
 
@@ -3272,7 +3272,7 @@ transition:all .1s ease-in-out;}
 
 #contact .contact-container form input:focus,
 #contact .container form textarea:focus {
-  border:1px solid #8B0000;
+  border:1px solid #cc9900;
 }
 
 #contact .contact-container form textarea {
@@ -3283,12 +3283,12 @@ height:150px;}
   padding:5px 10px;
   font-size: 12px;
   letter-spacing:1px;
-  background:#8B0000;
+  background:#cc9900;
   height:40px;
   text-transform:uppercase;
   letter-spacing:1px;
   color:#FFF;
-  border:2px solid #8B0000;
+  border:2px solid #cc9900;
   -webkit-transition:all .1s ease-in-out;
   -moz-transition:all .1s ease-in-out;
   -ms-transition:all .1s ease-in-out;
