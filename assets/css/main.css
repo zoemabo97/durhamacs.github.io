@@ -1879,7 +1879,7 @@ body.is-loading * {
 }
 
 body, input, select, textarea {
-  color: #474747;
+  color: #000000;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16pt;
   font-weight: 300;
@@ -1896,7 +1896,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #484848;
   border-bottom-color: transparent;
 }
 
