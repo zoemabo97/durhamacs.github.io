@@ -1896,16 +1896,16 @@ a {
 }
 
 a:hover {
-  color: #c3a989
+  color: #b38600;
   border-bottom-color: transparent;
 }
 
 #star_quotes a:hover {
-  color: #c3a989
+  color: #b38600;
 }
 
 #star_quotes .star {
-  color: #c3a989
+  color: #c3a989;
 }
 
 strong, b {
@@ -2684,7 +2684,7 @@ input[type="button"].small,
 }
 
 #footer a:hover {
-  color: #c3a989;
+  color: #b38600;
   border-bottom-color: transparent;
 }
 
@@ -2702,7 +2702,7 @@ input[type="button"].small,
 }
 
 #footer .icons a:hover {
-  color: #474747;
+  color: #b38600;
 }
 
 #footer .copyright {
