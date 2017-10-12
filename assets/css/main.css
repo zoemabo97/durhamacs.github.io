@@ -570,7 +570,7 @@ h2,p {
 	@media screen and (max-width: 1680px) {
 
 		.row > * {
-			padding: 90px 0 0 40px;
+			padding: 50px 0 0 40px;
 		}
 
 		.row {
