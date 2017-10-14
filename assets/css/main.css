@@ -3283,7 +3283,7 @@ height:150px;}
   padding:5px 10px;
   font-size: 12px;
   letter-spacing:1px;
-  background:#c3a989;
+  background:#000000;
   height:40px;
   text-transform:uppercase;
   letter-spacing:1px;
@@ -3297,8 +3297,8 @@ transition:all .1s ease-in-out;}
 
 #contact .contact-container form .submit:hover {
   color:#FFF;
-  border:2px solid #992600;
-  background: #992600;
+  border:2px solid #c3a989;
+  background: #c3a989;
 cursor:pointer;}
 
 #contact .contact-container form .required {
