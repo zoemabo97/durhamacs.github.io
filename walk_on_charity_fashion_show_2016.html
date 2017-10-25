@@ -2,8 +2,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/gallery_grid.css">
     <link rel="stylesheet" href="assets/css/main.css" />
 
   </head>
@@ -91,19 +92,78 @@
                 <li><a href="dacs-fitness.html">DACS Fitness</a></li>
               </ul>
             </li>
-            <li  class="current"><a href="gallery.html">Gallery</a></li>
+            <li class="current">
+              <a href="#">Gallery</a>
+              <ul>
+                <li><a href="meet_and_greet_2016.html">Meet and Greet 2016</a></li>
+                <li><a href="christmas_event.html">Christmas Quiz Night</a></li>
+                <li><a href="walk_on_charity_fashion_show_2016.html">Walk on Charity Fashion Show 2016</a></li>
+              </ul>
+            </li>
             <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </nav>
       </div>
 
+
+      <center>
+        <header>
+          <h2><font size = "15pt">Walk on Charity Fashion Show 2016</font></h2>
+        </header>
+      </center>
+
       <!-- Main -->
-      <section class="wrapper style1">
-        <div class="container">
-          <div class="row 200%">
-            <div id="content">
-              <p> empty <br><br><br><br><br></p>
-            </div>
+              <div class="gallery_body">
+                <div class="tz-gallery">
+
+                  <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/park.jpg">
+                        <img src="../images/park.jpg" alt="Park">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/bridge.jpg">
+                        <img src="../images/bridge.jpg" alt="Bridge">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/tunnel.jpg">
+                        <img src="../images/tunnel.jpg" alt="Tunnel">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/coast.jpg">
+                        <img src="../images/coast.jpg" alt="Coast">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/rails.jpg">
+                        <img src="../images/rails.jpg" alt="Rails">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/traffic.jpg">
+                        <img src="../images/traffic.jpg" alt="Traffic">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/rocks.jpg">
+                        <img src="../images/rocks.jpg" alt="Rocks">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/benches.jpg">
+                        <img src="../images/benches.jpg" alt="Benches">
+                      </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="../images/sky.jpg">
+                        <img src="../images/sky.jpg" alt="Sky">
+                      </a>
+                    </div>
+                  </div>
+
           </div>
         </div>
       </section>
@@ -165,9 +225,10 @@
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
       <script src='assets/js/xgrmnr.js'></script>
-      <script  src="assets/js/gallery_thumbnails.js"></script>
-
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script>
+        baguetteBox.run('.tz-gallery');
+      </script>
     </body>
   </html>
 
